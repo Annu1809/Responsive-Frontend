@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body class=" border rounded-2xl md:p-3   ">
+    <div class="hidden md:flex md:flex-col md:items-center w-full bg-violet-900  ">
+        <nav class="  md:bg-violet-900 md:text-white md:font-bold md:p-2 w-[40rem] ">
+            <ul class="nav justify-content-center flex justify-center p-3 gap-x-12  xl:gap-x-20">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/history">History</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Reminder</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">More</a>
+                </li>
+              </ul>
+        </nav>
+    </div>
+   
+    
+    
+    <header class="text-white bg-violet-900 h-72 p-5 flex flex-col gap-y-20 items-center sm:gap-y-10  md:h-96 md:pt-10 lg:flex-row lg:justify-around xl:gap-x-3 ">        
+
+        <div class=" flex flex-row gap-x-6 pt-10 sm:gap-x-24 md:gap-44 lg:flex-col lg:gap-y-6 lg:items-center xl:gap-y-20">
+            <div class="flex flex-col gap-y-2 ">
+                <p class=" font-bold text-2xl sm:text-4xl md:text-5xl">Hey James,</p>
+                <p class="text-[0.6rem] text-md font-semibold sm:text-md md:text-[13px]">What would you like to do today ? </p>
+            </div>
+            <div class="rounded-full border border-white h-12 w-12 sm:h-24 sm:w-24 md:h-44 md:w-44 lg:hidden"><img src="images/img5.png" alt=""
+                    class=" rounded-full"></div>
+            <div
+            class="hidden  lg:bg-violet-700 lg:shadow-black lg:shadow-md lg:rounded-full lg:flex lg:flex-row lg:justify-evenly lg:items-center lg:p-3 lg:w-72 ">
+            <p class="text-sm sm:text-base ">Receive</p>
+            <div class="border border-white rounded-full w-10 h-10 flex justify-center items-center "><svg
+                    viewBox="-0.5 -0.5 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    id="Soundwave--Streamline-Solar-Ar" height="24" width="24">
+                    <desc>Soundwave Streamline Icon: https://streamlinehq.com</desc>
+                    <path d="M7.5 0.78V14.219999999999999" stroke="#ffffff" stroke-linecap="round" stroke-width="1">
+                    </path>
+                    <path d="M10.860000000000001 3.3000000000000003V11.7" stroke="#ffffff" stroke-linecap="round"
+                        stroke-width="1"></path>
+                    <path d="M4.14 3.3000000000000003V11.7" stroke="#ffffff" stroke-linecap="round" stroke-width="1">
+                    </path>
+                    <path d="M14.219999999999999 6.66V8.34" stroke="#ffffff" stroke-linecap="round" stroke-width="1">
+                    </path>
+                    <path d="M0.78 6.66V8.34" stroke="#ffffff" stroke-linecap="round" stroke-width="1"></path>
+                </svg></div>
+            <p class="text-sm sm:text-base">Send</p>
+        </div>
+        </div>
+
+        <div
+            class=" bg-violet-700 shadow-black shadow-md rounded-full w-56 flex flex-row justify-evenly items-center p-3 sm:w-72 lg:hidden">
+            <p class="text-sm sm:text-base ">Receive</p>
+            <div class="border border-white rounded-full w-10 h-10 flex justify-center items-center "><svg
+                    viewBox="-0.5 -0.5 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    id="Soundwave--Streamline-Solar-Ar" height="24" width="24">
+                    <desc>Soundwave Streamline Icon: https://streamlinehq.com</desc>
+                    <path d="M7.5 0.78V14.219999999999999" stroke="#ffffff" stroke-linecap="round" stroke-width="1">
+                    </path>
+                    <path d="M10.860000000000001 3.3000000000000003V11.7" stroke="#ffffff" stroke-linecap="round"
+                        stroke-width="1"></path>
+                    <path d="M4.14 3.3000000000000003V11.7" stroke="#ffffff" stroke-linecap="round" stroke-width="1">
+                    </path>
+                    <path d="M14.219999999999999 6.66V8.34" stroke="#ffffff" stroke-linecap="round" stroke-width="1">
+                    </path>
+                    <path d="M0.78 6.66V8.34" stroke="#ffffff" stroke-linecap="round" stroke-width="1"></path>
+                </svg></div>
+            <p class="text-sm sm:text-base">Send</p>
+        </div>
+        <div class="hidden lg:flex lg:rounded-full lg:border lg:border-white lg:h-60 lg:w-60 "><img src="images/img5.png" alt=""
+            class=" rounded-full"></div>
+
+    </header>
+     
+    <section class=" bg-gray-200 px-2 py-3 flex flex-row justify-around sm:px-12 sm:py-5 md:hidden lg:flex lg:p-12 xl:px-20">
+        <div class="flex flex-col gap-y-2 lg:flex-row lg:items-center lg:justify-center lg:gap-x-4">
+            <div class="shadow-md shadow-gray-500 p-2 border rounded-lg bg-white lg:h-14 lg:flex lg:w-14  lg:items-center lg:justify-center"><svg
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="Receipt--Streamline-Ultimate" height="24"
+                    width="24">
+                    <desc>Receipt Streamline Icon: https://streamlinehq.com</desc>
+                    <g>
+                        <path d="m17.25 21.75 -6 0" fill="none" stroke="#f27d0a" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5"></path>
+                        <path d="m8.75 13.25 6.5 0" fill="none" stroke="#f27d0a" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5"></path>
+                        <path d="m8.75 9.75 6.5 0" fill="none" stroke="#f27d0a" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5"></path>
+                        <path d="m8.75 6.25 6.5 0" fill="none" stroke="#f27d0a" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5"></path>
+                        <path d="M20.25 0.75h-1.5v5.5h4.5v-2.5a3 3 0 0 0 -3 -3Z" fill="none" stroke="#f27d0a"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                        <path
+                            d="M13.5 17.25H3.75a3 3 0 0 0 -3 3v3h10.5V19.5a2.25 2.25 0 0 1 4.5 0v0.75a1.5 1.5 0 0 0 1.5 1.5h0a1.5 1.5 0 0 0 1.5 -1.5V0.75H8.25a3 3 0 0 0 -3 3v13.5"
+                            fill="none" stroke="#f27d0a" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="1.5"></path>
+                    </g>
+                </svg></div>
+            <p class=" text-[10px] sm:text-sm lg:text-base lg:font-semibold">Pay Bills</p>
+        </div>
+        <div class="flex flex-col gap-y-2 lg:flex-row lg:items-center lg:justify-center lg:gap-x-4">
+            <div class="shadow-md shadow-gray-500 p-2 border rounded-lg bg-white lg:h-14 lg:flex lg:w-14  lg:items-center lg:justify-center"><svg
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                    id="Donation-Charity-Hand-Receive-Heart-1--Streamline-Ultimate" height="24" width="24">
+                    <desc>Donation Charity Hand Receive Heart 1 Streamline Icon: https://streamlinehq.com</desc>
+                    <defs></defs>
+                    <path
+                        d="m16.375 12.576 -5.759 -6.008a3.411 3.411 0 0 1 -0.639 -3.934h0a3.408 3.408 0 0 1 5.458 -0.885l0.94 0.94 0.941 -0.94a3.407 3.407 0 0 1 5.457 0.885h0a3.409 3.409 0 0 1 -0.638 3.934Z"
+                        fill="none" stroke="#ea5b0f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                    </path>
+                    <path d="M1 14.25h3s0.5 0 0.5 0.5v7s0 0.5 -0.5 0.5H1s-0.5 0 -0.5 -0.5v-7s0 -0.5 0.5 -0.5"
+                        fill="none" stroke="#ea5b0f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                    </path>
+                    <path
+                        d="M4.5 20.813c4.5 1.5 6.425 2.437 8.1 2.437 2.4 0 4.035 -1.507 10.9 -4.937a2.758 2.758 0 0 0 -3 -1l-4.316 1.367"
+                        fill="none" stroke="#ea5b0f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                    </path>
+                    <path d="M4.5 15.25h3c2.353 0 4 2 4.5 2h3.5c1 0 1 2 0 2H10" fill="none" stroke="#ea5b0f"
+                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path>
+                </svg></div>
+            <p class=" text-[10px] sm:text-sm lg:text-base lg:font-semibold">Donate</p>
+        </div>
+        <div class="flex flex-col gap-y-2 lg:flex-row lg:items-center lg:justify-center lg:gap-x-4">
+            <div class="shadow-md shadow-gray-500 p-2 border rounded-lg bg-white sm:w-14 lg:h-14 lg:flex lg:w-14  lg:items-center lg:justify-center"><svg viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg" id="Multiple-Neutral-2--Streamline-Ultimate" height="24"
+                    width="24">
+                    <desc>Multiple Neutral 2 Streamline Icon: https://streamlinehq.com</desc>
+                    <path d="M3.375 7.875a4.125 4.125 0 1 0 8.25 0 4.125 4.125 0 1 0 -8.25 0Z" fill="none"
+                        stroke="#f87d01" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                    <path d="M0.75 20.25a6.75 6.75 0 0 1 13.5 0" fill="none" stroke="#f87d01" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="1.5"></path>
+                    <path d="M14.352 10.125a3.375 3.375 0 1 0 6.75 0 3.375 3.375 0 1 0 -6.75 0Z" fill="none"
+                        stroke="#f87d01" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                    <path d="M15.813 15.068a5.526 5.526 0 0 1 7.437 5.182" fill="none" stroke="#f87d01"
+                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                </svg></div>
+            <p class=" text-[10px] sm:text-sm lg:text-base lg:font-semibold">Recipients</p>
+        </div>
+        <div class="flex flex-col gap-y-2 lg:flex-row lg:items-center lg:justify-center lg:gap-x-4">
+            <div class="shadow-md shadow-gray-500 p-2 border rounded-lg bg-white flex lg:h-14 lg:flex lg:w-14  lg:items-center lg:justify-center "><svg viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg" id="Discount-1--Streamline-Ultimate" height="24" width="24">
+                    <desc>Discount 1 Streamline Icon: https://streamlinehq.com</desc>
+                    <path d="M1.08 22.92L22.92 1.08Z" fill="none" stroke="#f27d0a" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="1.5"></path>
+                    <path
+                        d="M16.2 19.56C16.2 22.1465 19 23.7631 21.24 22.4698C22.2796 21.8696 22.92 20.7604 22.92 19.56C22.92 16.9735 20.12 15.3569 17.88 16.6502C16.8404 17.2504 16.2 18.3596 16.2 19.56Z"
+                        fill="none" stroke="#f27d0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                    </path>
+                    <path
+                        d="M1.08 4.44C1.08 7.0265 3.88 8.6431 6.12 7.3498C7.1596 6.7496 7.8 5.6404 7.8 4.44C7.8 1.8535 5 0.2369 2.76 1.5302C1.7204 2.1304 1.08 3.2396 1.08 4.44Z"
+                        fill="none" stroke="#f27d0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                    </path>
+                </svg></div>
+            <p class=" text-[10px] sm:text-sm lg:text-base lg:font-semibold">Offers</p>
+        </div>
+    </section>
+    <!-- at md -->
+     <section class=" hidden md:flex md:flex-row md:px-28 md:py-8 md: bg-gray-200 md:justify-around lg:hidden">
+        <div class="flex flex-col gap-y-14">
+            <div class="flex gap-x-8 items-center">
+                <div class="shadow-md shadow-gray-500 p-2 border rounded-lg bg-white h-16 w-16 flex items-center justify-center"><svg
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="Receipt--Streamline-Ultimate" height="24"
+                    width="24">
+                    <desc>Receipt Streamline Icon: https://streamlinehq.com</desc>
+                    <g>
+                        <path d="m17.25 21.75 -6 0" fill="none" stroke="#f27d0a" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5"></path>
+                        <path d="m8.75 13.25 6.5 0" fill="none" stroke="#f27d0a" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5"></path>
+                        <path d="m8.75 9.75 6.5 0" fill="none" stroke="#f27d0a" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5"></path>
+                        <path d="m8.75 6.25 6.5 0" fill="none" stroke="#f27d0a" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5"></path>
+                        <path d="M20.25 0.75h-1.5v5.5h4.5v-2.5a3 3 0 0 0 -3 -3Z" fill="none" stroke="#f27d0a"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                        <path
+                            d="M13.5 17.25H3.75a3 3 0 0 0 -3 3v3h10.5V19.5a2.25 2.25 0 0 1 4.5 0v0.75a1.5 1.5 0 0 0 1.5 1.5h0a1.5 1.5 0 0 0 1.5 -1.5V0.75H8.25a3 3 0 0 0 -3 3v13.5"
+                            fill="none" stroke="#f27d0a" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="1.5"></path>
+                    </g>
+                </svg></div>
+                <p>Pay Bills</p>
+            </div>
+            <div class="flex gap-x-8 items-center">
+                <div class="shadow-md shadow-gray-500 p-2 border rounded-lg bg-white h-16 w-16 flex items-center justify-center"><svg
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                    id="Donation-Charity-Hand-Receive-Heart-1--Streamline-Ultimate" height="24" width="24">
+                    <desc>Donation Charity Hand Receive Heart 1 Streamline Icon: https://streamlinehq.com</desc>
+                    <defs></defs>
+                    <path
+                        d="m16.375 12.576 -5.759 -6.008a3.411 3.411 0 0 1 -0.639 -3.934h0a3.408 3.408 0 0 1 5.458 -0.885l0.94 0.94 0.941 -0.94a3.407 3.407 0 0 1 5.457 0.885h0a3.409 3.409 0 0 1 -0.638 3.934Z"
+                        fill="none" stroke="#ea5b0f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                    </path>
+                    <path d="M1 14.25h3s0.5 0 0.5 0.5v7s0 0.5 -0.5 0.5H1s-0.5 0 -0.5 -0.5v-7s0 -0.5 0.5 -0.5"
+                        fill="none" stroke="#ea5b0f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                    </path>
+                    <path
+                        d="M4.5 20.813c4.5 1.5 6.425 2.437 8.1 2.437 2.4 0 4.035 -1.507 10.9 -4.937a2.758 2.758 0 0 0 -3 -1l-4.316 1.367"
+                        fill="none" stroke="#ea5b0f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                    </path>
+                    <path d="M4.5 15.25h3c2.353 0 4 2 4.5 2h3.5c1 0 1 2 0 2H10" fill="none" stroke="#ea5b0f"
+                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path>
+                </svg></div>
+                <p>Donate</p>
+            </div>
+        </div>
+        <div class="flex flex-col gap-y-14">
+            <div class="flex gap-x-8 items-center">
+                <div class="shadow-md shadow-gray-500 p-2 border rounded-lg bg-white h-16 w-16 flex items-center justify-center "><svg viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg" id="Multiple-Neutral-2--Streamline-Ultimate" height="24"
+                    width="24">
+                    <desc>Multiple Neutral 2 Streamline Icon: https://streamlinehq.com</desc>
+                    <path d="M3.375 7.875a4.125 4.125 0 1 0 8.25 0 4.125 4.125 0 1 0 -8.25 0Z" fill="none"
+                        stroke="#f87d01" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                    <path d="M0.75 20.25a6.75 6.75 0 0 1 13.5 0" fill="none" stroke="#f87d01" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="1.5"></path>
+                    <path d="M14.352 10.125a3.375 3.375 0 1 0 6.75 0 3.375 3.375 0 1 0 -6.75 0Z" fill="none"
+                        stroke="#f87d01" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                    <path d="M15.813 15.068a5.526 5.526 0 0 1 7.437 5.182" fill="none" stroke="#f87d01"
+                        stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+                </svg></div>
+                <p>Recipients</p>
+            </div>
+            <div  class="flex gap-x-8 items-center">
+                <div class="shadow-md shadow-gray-500 p-2 border rounded-lg bg-white flex h-16 w-16 flex items-center justify-center"><svg viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg" id="Discount-1--Streamline-Ultimate" height="24" width="24">
+                    <desc>Discount 1 Streamline Icon: https://streamlinehq.com</desc>
+                    <path d="M1.08 22.92L22.92 1.08Z" fill="none" stroke="#f27d0a" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="1.5"></path>
+                    <path
+                        d="M16.2 19.56C16.2 22.1465 19 23.7631 21.24 22.4698C22.2796 21.8696 22.92 20.7604 22.92 19.56C22.92 16.9735 20.12 15.3569 17.88 16.6502C16.8404 17.2504 16.2 18.3596 16.2 19.56Z"
+                        fill="none" stroke="#f27d0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                    </path>
+                    <path
+                        d="M1.08 4.44C1.08 7.0265 3.88 8.6431 6.12 7.3498C7.1596 6.7496 7.8 5.6404 7.8 4.44C7.8 1.8535 5 0.2369 2.76 1.5302C1.7204 2.1304 1.08 3.2396 1.08 4.44Z"
+                        fill="none" stroke="#f27d0a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                    </path>
+                </svg></div>
+                <p>Offers</p>
+            </div>
+        </div>
+     </section>
+    <!--*************************** Recent transaction section ***********************-->
+    <main class="flex flex-col mt-5 gap-y-5 m-1 px-1 sm:px-6 md:px-14 lg:px-32 ">
+        <p class="text-violet-900">RECENT TRANSACTIONS</p>
+        <ul class="list-group list-group-flush lg:flex lg:flex-col lg:gap-y-5 xl:flex-row xl:justify-around">
+            <li class="list-group-item shadow-md shadow-gray-500 p-1 rounded-lg flex flex-row justify-between sm:p-4 xl:w-72 xl:justify-around">
+                <div class="flex flex-row justify-center items-center gap-x-2 sm:gap-x-9 lg:gap-x-24 xl:gap-x-16">
+                    <img src="images/img1.png" alt="" class="h-10 w-10 rounded-lg sm:h-12 sm:w-12">
+                    <p class="font-semibold text-sm">Alexander Young </p>
+                </div>
+                <div class="flex flex-col font-extrabold w-20 my-1 text-end">
+                    <span class="text-sm">$ 500.00</span>
+                    <span class="text-violet-900 text-[0.7rem] ">Sent</span>
+                </div>
+            </li>
+            <li class="list-group-item shadow-md shadow-gray-500 p-1 rounded-lg flex flex-row justify-between sm:p-4 xl:w-72 xl:justify-around">
+                <div class="flex flex-row justify-center items-center gap-x-2 sm:gap-x-9 lg:gap-x-24 xl:gap-x-16">
+                    <img src="images/img2.png" alt="" class="h-10 w-10 rounded-lg sm:h-12 sm:w-12">
+                    <p class="font-semibold text-sm">Lisa Moreno</p>
+                </div>
+                <div class="flex flex-col font-extrabold w-20 my-1 text-end">
+                    <span class="text-sm">$ 2500.00</span>
+                    <span class="text-green-600 text-[0.7rem] ">Recieved</span>
+                </div>
+            </li>
+            <li class="list-group-item shadow-md shadow-gray-500 p-1 rounded-lg flex flex-row justify-between sm:p-4 xl:w-72 xl:justify-around">
+                <div class="flex flex-row justify-center items-center gap-x-2 sm:gap-x-9 lg:gap-x-24 xl:gap-x-6">
+                    <img src="images/img3.png" alt="" class="h-9 w-10 rounded-lg sm:h-12 sm:w-12">
+                    <p class="font-semibold text-sm">Bryan Valdez</p>
+                </div>
+                <div class="flex flex-col font-extrabold w-20 my-1 text-end">
+                    <span class="text-sm">$ 600.00</span>
+                    <span class="text-yellow-600 text-[0.7rem] ">Pending</span>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <!-- **************************Select Payee Section************************** -->
+    <section class="flex flex-col mt-5 gap-y-5 m-1 px-1 sm:px-6 md:px-14 lg:px-32 xl:hidden">
+        <p class="text-violet-900 font-semibold">SELECT PAYEE</p>
+        <ul class="list-group list-group-flush lg:flex lg:flex-col lg:gap-y-5">
+            <li class="list-group-item shadow-md shadow-gray-500 p-1 rounded-lg flex flex-row justify-between sm:p-4">
+                <div class="flex flex-row justify-center items-center gap-x-2 sm:gap-x-10 lg:gap-x-24">
+                    <img src="images/img4.png" alt="" class="h-10 w-10 rounded-lg sm:h-12 sm:w-12">
+                    <div>
+                        <p class="font-semibold text-sm lg:text-base"> Doris Larson </p>
+                        <p class="text-[0.6rem] font-bold text-gray-500 lg:text-[0.8rem]">8-(624)667-1698</p>
+                    </div>
+
+                </div>
+
+            </li>
+            <li class="list-group-item shadow-md shadow-gray-500 p-1 rounded-lg flex flex-row justify-between sm:p-4">
+                <div class="flex flex-row justify-center items-center gap-x-2 sm:gap-x-10 lg:gap-x-24">
+                    <img src="images/img6.png" alt="" class="h-10 w-10 rounded-lg sm:h-12 sm:w-12">
+                    <div>
+                        <p class="font-semibold text-sm lg:text-base">Eric Peterson</p>
+                        <p class="text-[0.6rem] font-bold text-gray-500 lg:text-[0.8rem]">8-(624)667-1698</p>
+                    </div>
+
+                </div>
+            </li>
+            <li class="list-group-item shadow-md shadow-gray-500 p-1 rounded-lg flex flex-row justify-between sm:p-4">
+                <div class="flex flex-row justify-center items-center gap-x-2 sm:gap-x-10 lg:gap-x-24">
+                    <img src="images/img7.png" alt="" class="h-9 w-10 rounded-lg sm:h-12 sm:w-12">
+                    <div>
+                        <p class="font-semibold text-sm lg:text-base">Doglus Adams</p>
+                        <p class="text-[0.6rem] font-bold text-gray-500 lg:text-[0.8rem]">8-(624)667-1698</p>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item shadow-md shadow-gray-500 p-1 rounded-lg flex flex-row justify-between sm:p-4">
+                <div class="flex flex-row justify-center items-center gap-x-2 sm:gap-x-10 lg:gap-x-24">
+                    <img src="images/img8.png" alt="" class="h-9 w-10 rounded-lg sm:h-12 sm:w-12">
+                    <div>
+                        <p class="font-semibold text-sm lg:text-base">Laura Arnold</p>
+                        <p class="text-[0.6rem] font-bold text-gray-500 lg:text-[0.8rem]">8-(624)667-1698</p>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item shadow-md shadow-gray-500 p-1 rounded-lg flex flex-row justify-between sm:p-4">
+                <div class="flex flex-row justify-center items-center gap-x-2 sm:gap-x-10 lg:gap-x-24">
+                    <img src="images/img9.png" alt="" class="h-9 w-10 rounded-lg sm:h-12 sm:w-12">
+                    <div>
+                        <p class="font-semibold text-sm lg:text-base">Lawrence Fernandes</p>
+                        <p class="text-[0.6rem] font-bold text-gray-500 lg:text-[0.8rem]">8-(624)667-1698</p>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item shadow-md shadow-gray-500 p-1 rounded-lg flex flex-row justify-between sm:p-4">
+                <div class="flex flex-row justify-center items-center gap-x-2 sm:gap-x-10 lg:gap-x-24">
+                    <img src="images/img10.png" alt="" class="h-9 w-10 rounded-lg sm:h-12 sm:w-12">
+                    <div>
+                        <p class="font-semibold text-sm lg:text-base">Leo bard</p>
+                        <p class="text-[0.6rem] font-bold text-gray-500 lg:text-[0.8rem]">8-(624)667-1698</p>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item shadow-md shadow-gray-500 p-1 rounded-lg flex flex-row justify-between sm:p-4">
+                <div class="flex flex-row justify-center items-center gap-x-2 sm:gap-x-10 lg:gap-x-24">
+                    <img src="images/img11.png" alt="" class="h-9 w-10 rounded-lg sm:h-12 sm:w-12">
+                    <div>
+                        <p class="font-semibold text-sm lg:text-base">Grace Wade</p>
+                        <p class="text-[0.6rem] font-bold text-gray-500 lg:text-[0.8rem]">8-(624)667-1698</p>
+                    </div>
+                </div>
+            </li>
+            <li class="list-group-item shadow-md shadow-gray-500 p-1 rounded-lg flex flex-row justify-between sm:p-4">
+                <div class="flex flex-row justify-center items-center gap-x-2 sm:gap-x-10 lg:gap-x-24">
+                    <img src="images/img12.png" alt="" class="h-9 w-10 rounded-lg sm:h-12 sm:w-12">
+                    <div>
+                        <p class="font-semibold text-sm lg:text-base">Albert Hansen</p>
+                        <p class="text-[0.6rem] font-bold text-gray-500 lg:text-[0.8rem]">8-(624)667-1698</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <!-- at xl -->
+     <section class="hidden xl:block xl:px-32 xl:py-14">
+        <p class="text-violet-900 font-semibold py-5">SELECT PAYEE</p>
+        <div class="xl:flex  justify-around gap-x-10">
+            <div class="w-full">
+                <ul>
+                    <li class="list-group-item shadow-md shadow-gray-500 p-1 rounded-lg flex flex-row justify-between sm:p-4">
+                        <div class="flex flex-row justify-center items-center gap-x-2 sm:gap-x-10 lg:gap-x-24">
+                            <img src="images/img4.png" alt="" class="h-10 w-10 rounded-lg sm:h-12 sm:w-12">
+                            <div>
+                                <p class="font-semibold text-sm lg:text-base"> Doris Larson </p>
+                                <p class="text-[0.6rem] font-bold text-gray-500 lg:text-[0.8rem]">8-(624)667-1698</p>
+                            </div>
+        
+                        </div>
+        
+                    </li>
+                    <li class="list-group-item shadow-md shadow-gray-500 p-1 rounded-lg flex flex-row justify-between sm:p-4">
+                        <div class="flex flex-row justify-center items-center gap-x-2 sm:gap-x-10 lg:gap-x-24">
+                            <img src="images/img6.png" alt="" class="h-10 w-10 rounded-lg sm:h-12 sm:w-12">
+                            <div>
+                                <p class="font-semibold text-sm lg:text-base">Eric Peterson</p>
+                                <p class="text-[0.6rem] font-bold text-gray-500 lg:text-[0.8rem]">8-(624)667-1698</p>
+                            </div>
+        
+                        </div>
+                    </li>
+
+                    <li class="list-group-item shadow-md shadow-gray-500 p-1 rounded-lg flex flex-row justify-between sm:p-4">
+                        <div class="flex flex-row justify-center items-center gap-x-2 sm:gap-x-10 lg:gap-x-24">
+                            <img src="images/img7.png" alt="" class="h-9 w-10 rounded-lg sm:h-12 sm:w-12">
+                            <div>
+                                <p class="font-semibold text-sm lg:text-base">Doglus Adams</p>
+                                <p class="text-[0.6rem] font-bold text-gray-500 lg:text-[0.8rem]">8-(624)667-1698</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item shadow-md shadow-gray-500 p-1 rounded-lg flex flex-row justify-between sm:p-4">
+                        <div class="flex flex-row justify-center items-center gap-x-2 sm:gap-x-10 lg:gap-x-24">
+                            <img src="images/img8.png" alt="" class="h-9 w-10 rounded-lg sm:h-12 sm:w-12">
+                            <div>
+                                <p class="font-semibold text-sm lg:text-base">Laura Arnold</p>
+                                <p class="text-[0.6rem] font-bold text-gray-500 lg:text-[0.8rem]">8-(624)667-1698</p>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="w-full"><ul>
+                <li class="list-group-item shadow-md shadow-gray-500 p-1 rounded-lg flex flex-row justify-between sm:p-4">
+                    <div class="flex flex-row justify-center items-center gap-x-2 sm:gap-x-10 lg:gap-x-24">
+                        <img src="images/img9.png" alt="" class="h-9 w-10 rounded-lg sm:h-12 sm:w-12">
+                        <div>
+                            <p class="font-semibold text-sm lg:text-base">Lawrence Fernandes</p>
+                            <p class="text-[0.6rem] font-bold text-gray-500 lg:text-[0.8rem]">8-(624)667-1698</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item shadow-md shadow-gray-500 p-1 rounded-lg flex flex-row justify-between sm:p-4">
+                    <div class="flex flex-row justify-center items-center gap-x-2 sm:gap-x-10 lg:gap-x-24">
+                        <img src="images/img10.png" alt="" class="h-9 w-10 rounded-lg sm:h-12 sm:w-12">
+                        <div>
+                            <p class="font-semibold text-sm lg:text-base">Leo bard</p>
+                            <p class="text-[0.6rem] font-bold text-gray-500 lg:text-[0.8rem]">8-(624)667-1698</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item shadow-md shadow-gray-500 p-1 rounded-lg flex flex-row justify-between sm:p-4">
+                    <div class="flex flex-row justify-center items-center gap-x-2 sm:gap-x-10 lg:gap-x-24">
+                        <img src="images/img11.png" alt="" class="h-9 w-10 rounded-lg sm:h-12 sm:w-12">
+                        <div>
+                            <p class="font-semibold text-sm lg:text-base">Grace Wade</p>
+                            <p class="text-[0.6rem] font-bold text-gray-500 lg:text-[0.8rem]">8-(624)667-1698</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item shadow-md shadow-gray-500 p-1 rounded-lg flex flex-row justify-between sm:p-4">
+                    <div class="flex flex-row justify-center items-center gap-x-2 sm:gap-x-10 lg:gap-x-24">
+                        <img src="images/img12.png" alt="" class="h-9 w-10 rounded-lg sm:h-12 sm:w-12">
+                        <div>
+                            <p class="font-semibold text-sm lg:text-base">Albert Hansen</p>
+                            <p class="text-[0.6rem] font-bold text-gray-500 lg:text-[0.8rem]">8-(624)667-1698</p>
+                        </div>
+                    </div>
+                </li>
+                
+            </ul></div>
+        </div>      
+        
+     </section>
+    <!-- ********************************footer section************************** -->
+    <footer class=" bg-slate-100 flex flex-row justify-around p-3 mb-0 fixed bottom-0 w-full sm:p-5 md:hidden">
+        <div><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="House--Streamline-Ultimate" height="20"
+                width="20">
+                <desc>House Streamline Icon: https://streamlinehq.com</desc>
+                <path
+                    d="M22.272 23.247a0.981 0.981 0 0 0 0.978 -0.978V9.747a1.181 1.181 0 0 0 -0.377 -0.8L12 0.747l-10.873 8.2a1.181 1.181 0 0 0 -0.377 0.8v12.522a0.981 0.981 0 0 0 0.978 0.978Z"
+                    fill="none" stroke="#5603fa" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                </path>
+            </svg></div>
+
+        <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" id="Clock--Streamline-Nova"
+                height="20" width="20">
+                <desc>Clock Streamline Icon: https://streamlinehq.com</desc>
+                <path fill="#5807f8" fill-rule="evenodd"
+                    d="M2 12C2 6.47715 6.47715 2 12 2c5.5228 0 10 4.47715 10 10 0 5.5228 -4.4772 10 -10 10 -5.52285 0 -10 -4.4772 -10 -10ZM12 0C5.37258 0 0 5.37258 0 12c0 6.6274 5.37258 12 12 12 6.6274 0 12 -5.3726 12 -12 0 -6.62742 -5.3726 -12 -12 -12Zm-1 5.88904V12c0 0.5523 0.4477 1 1 1h4.889v-2H13V5.88904h-2Z"
+                    clip-rule="evenodd" stroke-width="1"></path>
+            </svg></div>
+
+
+        <div><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="Email-Action-Unread--Streamline-Ultimate"
+                height="20" width="20">
+                <desc>Email Action Unread Streamline Icon: https://streamlinehq.com</desc>
+                <path d="m1.5 4.75 21 0 0 15 -21 0Z" fill="none" stroke="#5603fa" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="1.5"></path>
+                <path d="m22.161 5.3 -8.144 6.264a3.308 3.308 0 0 1 -4.034 0L1.839 5.3" fill="none" stroke="#5603fa"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+            </svg></div>
+
+        <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                id="Ascending-Sort-1--Streamline-Ultimate" height="20" width="20">
+                <desc>Ascending Sort 1 Streamline Icon: https://streamlinehq.com</desc>
+                <path stroke="#5603fa" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                    d="M0.75 18.8999h7.3" stroke-width="1.5"></path>
+                <path stroke="#5603fa" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                    d="M0.75 12h14.8" stroke-width="1.5"></path>
+                <path stroke="#5603fa" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                    d="M0.75 5.1001h22.5" stroke-width="1.5"></path>
+            </svg></div>
+    </footer>
+</body>
+
+</html>
